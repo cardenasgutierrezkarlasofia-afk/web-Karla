@@ -1,0 +1,269 @@
+index.html
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El Mundo de los Caballos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PORTADA -->
+    <header id="inicio" class="portada">
+
+        <div class="portada-contenido">
+
+            <h1>EL MUNDO DE LOS CABALLOS</h1>
+
+            <p>
+                Conoce sus razas, características, usos y algunas curiosidades.
+            </p>
+
+            <a href="#razas" class="boton">COMENZAR</a>
+
+        </div>
+
+    </header>
+
+
+    <!-- MENÚ -->
+    <nav class="menu">
+
+        <a href="#inicio">Inicio</a>
+        <a href="#razas">Razas</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#curiosidades">Curiosidades</a>
+
+    </nav>
+
+
+    <!-- INTRODUCCIÓN -->
+    <section class="introduccion">
+
+        <h2>¿Qué es un caballo?</h2>
+
+        <p>
+            El caballo es un mamífero que ha acompañado al ser humano durante
+            miles de años. Se caracteriza por su fuerza, velocidad, inteligencia
+            y capacidad para relacionarse con las personas.
+        </p>
+
+    </section>
+
+
+    <!-- RAZAS -->
+    <section id="razas" class="seccion">
+
+        <h2>Tipos de caballos</h2>
+
+        <p class="subtitulo">
+            Existen muchas razas de caballos. Estas son tres de ellas:
+        </p>
+
+
+        <div class="contenedor-tarjetas">
+
+
+            <!-- CABALLO ÁRABE -->
+            <article class="tarjeta">
+
+                <img
+                    src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=800&q=80"
+                    alt="Caballo Árabe"
+                >
+
+                <div class="tarjeta-contenido">
+
+                    <h3>Caballo Árabe</h3>
+
+                    <p>
+                        Es una de las razas más antiguas. Es conocido por su
+                        resistencia, velocidad, inteligencia y elegancia.
+                    </p>
+
+                    <button onclick="mostrarMensaje('Caballo Árabe')">
+                        CONOCER
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CABALLO FRISÓN -->
+            <article class="tarjeta">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?auto=format&fit=crop&w=800&q=80"
+                    alt="Caballo Frisón"
+                >
+
+                <div class="tarjeta-contenido">
+
+                    <h3>Caballo Frisón</h3>
+
+                    <p>
+                        Se caracteriza principalmente por su pelaje negro,
+                        su larga melena y su apariencia fuerte y elegante.
+                    </p>
+
+                    <button onclick="mostrarMensaje('Caballo Frisón')">
+                        CONOCER
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CABALLO PERCHERÓN -->
+            <article class="tarjeta">
+
+                <img
+                    src="https://images.unsplash.com/photo-1534773728080-33d31da27ae5?auto=format&fit=crop&w=800&q=80"
+                    alt="Caballo Percherón"
+                >
+
+                <div class="tarjeta-contenido">
+
+                    <h3>Caballo Percherón</h3>
+
+                    <p>
+                        Es un caballo grande y fuerte. Tradicionalmente ha sido
+                        utilizado para trabajos agrícolas y de transporte.
+                    </p>
+
+                    <button onclick="mostrarMensaje('Caballo Percherón')">
+                        CONOCER
+                    </button>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- CARACTERÍSTICAS -->
+    <section id="caracteristicas" class="caracteristicas">
+
+        <h2>Características de los caballos</h2>
+
+        <div class="lista-caracteristicas">
+
+            <div class="caracteristica">
+                <span>🐎</span>
+                <h3>Velocidad</h3>
+                <p>
+                    Algunas razas pueden alcanzar grandes velocidades.
+                </p>
+            </div>
+
+
+            <div class="caracteristica">
+                <span>💪</span>
+                <h3>Fuerza</h3>
+                <p>
+                    Son animales fuertes capaces de realizar diferentes trabajos.
+                </p>
+            </div>
+
+
+            <div class="caracteristica">
+                <span>🧠</span>
+                <h3>Inteligencia</h3>
+                <p>
+                    Pueden aprender órdenes y reconocer personas.
+                </p>
+            </div>
+
+
+            <div class="caracteristica">
+                <span>❤️</span>
+                <h3>Sociabilidad</h3>
+                <p>
+                    Son animales que pueden crear vínculos con otros caballos
+                    y con las personas.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- USOS -->
+    <section class="usos">
+
+        <h2>¿Para qué se utilizan?</h2>
+
+        <div class="contenedor-usos">
+
+            <div class="uso">
+                🏇
+                <h3>Deportes</h3>
+                <p>Participan en diferentes disciplinas ecuestres.</p>
+            </div>
+
+            <div class="uso">
+                🚜
+                <h3>Trabajo</h3>
+                <p>Han sido utilizados históricamente en el campo.</p>
+            </div>
+
+            <div class="uso">
+                🌎
+                <h3>Turismo</h3>
+                <p>Se utilizan para paseos y actividades recreativas.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CURIOSIDADES -->
+    <section id="curiosidades" class="curiosidades">
+
+        <h2>¿Sabías que...?</h2>
+
+        <p id="dato">
+            Haz clic en el botón para descubrir un dato curioso.
+        </p>
+
+        <button onclick="mostrarDato()" class="boton-dato">
+            MOSTRAR DATO
+        </button>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <h3>🐎 El Mundo de los Caballos</h3>
+
+        <p>
+            Página educativa sobre los caballos.
+        </p>
+
+        <p>
+            © 2026 Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
